@@ -1,0 +1,739 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Aman Lohchab | Software Developer</title>
+
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aman Lohchab | Software Developer" />
+  <meta property="og:description" content="Software Developer" />
+  <meta property="og:site_name" content="Aman Lohchab | Software Developer" />
+  <meta name="author" content="Aman Lohchab" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/aman.png" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <a aria-label="Open Aman's resume in a new tab" href="./assets/resume/Resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <a aria-label="Open Aman's Cover Letter in a new tab" href="./assets/resume/CoverLetter.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Cover Letter</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Aman Lohchab</a><span class="black-text">Software Developer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Aman's Resume in a new tab"
+          href="./assets/resume/Resume.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Aman's Cover Letter in a new tab"
+          href="./assets/resume/CoverLetter.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Cover Letter</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Aman Lohchab.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/aman-lohchab-45695b18b/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            A Software Developer with a passion for Backend Development and Artificial Intelligence.
+
+          </h2>
+        </blockquote> -->        
+        <p>
+          I’m a web developer based in Aitkenvale QLD. I am a dedicated and skilled professional with a passion for managing and maintaining organizational network systems. With a strong background in network infrastructure, user support, and project management, I am excited to showcase my experiences and skills through this platform.
+        </p>
+        <p>
+          <ul>
+            <li><b>Languages:</b> Python, Java, JavaScript, HTML/CSS</li>
+            <li><b>Tools & Technologies:</b> Git, Docker, AWS</li>
+          </ul>
+          
+        </p>
+        <p>
+          Looking for an opportunity to work in a challenging position combining my skills in Development, which provides professional development, interesting experiences and personal growth.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <img alt="Mtag logo" src="/assets/img/Website_Logo.png" class="responsive-img center-block" />
+
+              </div>
+
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#experience" class="teal-text hoverline">Tapware</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Voluntary Worker</div>
+            <ul>
+              <li>
+                Maintained building and grounds in good working order. 
+
+              </li>
+              <li>
+                Leveraged existing donor relationships to bring in new charitable donations,               
+              </li>
+              <li>
+                Managed process of incoming item donations including inspecting items, removing unusable pieces and coordinating
+                distribution.               
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Apr 2022 - Feb 2023 | Brisbane , Queensland</span>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="#experience" target="_blank"><img alt="Smartify logo"
+                    src="/assets/img/Smartify_logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#experience" target="_blank"
+                      class="teal-text hoverline">Smartify</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Volunteer</div>
+            <ul>
+              <li>
+                Gets ready and introduces arrangements by deciding and planning framework particulars. models. and programming. 
+
+              </li>
+              <li>
+                Enhances activities by leading frameworks examination: prescribing changes in strategies and methodology 
+              </li>
+              <li>
+                Gets and licenses programming by getting required data from sellers; prescribing buys: testing and favoring items               
+              </li>
+              <li>
+                Updates work information by examining best in class improvement instruments, programming methods. and registering
+                hardware; taking an interest in instructive chances; perusing proficient distributions: keeping up close to home systems; taking
+                part in expert associations               
+              </li>              
+              <li>
+                Secures activities by keeping data secret               
+              </li>              
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Jan 2019 - March 2020 | Sydney . New South Wales</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/1.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Job Matching<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Connect job seekers with opportunities, enhance job search efficiency.                
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>UX Design Goals
+                    <ul>
+                      <li>Details: User-friendly interface, no training required.</li>
+                    </ul>
+                  </li>
+                  <li>Application Architecture
+                    <ul>
+                      <li> Follows standard 3-tier architecture.</li>
+                    </ul>
+                  </li>
+                  <li> Project Design
+                    <ul>
+                      <li>Information System Project, methodology design used.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="#" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/2.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Job Matching Report<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Develop a nursing job match website to address issues with existing platforms.                
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li>
+                        <strong>Methodology</strong>
+                        <ul>
+                          <li>Agile methodology proved valuable in prioritizing map integration.</li>
+                          <li>Dependency mapping workshop suggested for better organization.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Professional Code of Conduct</strong>
+                        <ul>
+                          <li>Emphasis on confidentiality and proper storage of project materials.</li>
+                          <li>Delivering value early and incremental product delivery highlighted.</li>
+                        </ul>
+                      </li>
+                    </ul>                    
+                <div class="card-action">
+                  <a aria-label="Visit " href="#" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+
+          <!-- Flask Project -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="/assets/img/3.png"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Job Match Documentation<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Custom Vercel app built by Mastercare to cater to nursing graduates' needs.                
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li>
+                        <strong>List of Features:</strong>
+                        <ul>
+                          <li>Includes Map Integration</li>
+                          <li>User Module</li>
+                          <li>Health Care Facility Module</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Future Implementation Methodology:</strong>
+                        <ul>
+                          <li>Emphasizes industry standard agile model for reduced delivery risk and increased speed</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                <div class="card-action">
+                  <a aria-label="Visit Blog website" href="#" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages and Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/javascript.png" class="responsive-img" />JavaScript
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mongo.png" class="responsive-img" />Mongo DB
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/react.png" class="responsive-img" />React JS
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Frameworks</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/nodejs.png" class="responsive-img" />Node JS
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Other</h4>
+            <div class="row text-center">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="#">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">CERTIFICATION 1</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="#">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">CERTIFICATION 2</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.unisq.edu.au/" target="_blank" class="teal-text hoverline">University of Southern Queensland</a></span>
+                </p>
+                <p class="brown-text">Brisbane, Queensland</p>
+                <p class="brown-text">March, 2024</p>
+                <p>
+                  <b>Degree: </b>Bachelor's in Information technology       
+                  <br>
+                  <b>CGPA: </b>3.0/4.0
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Database Management Systems</li>
+                    <li>Cloud Computing</li>
+                    <li>Web Development</li>
+                    <li>Data Structures and Algorithms</li>                   
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="#" target="_blank" class="teal-text hoverline">V.PK. Gov. Sarvo. Bal Vidhyalaya Nangal Thakran</a></span>
+                </p>
+                <p class="brown-text">Delhi, India</p>
+                <p class="brown-text">May 2016</p>
+                <p>
+                  <b>Degree: </b>High School
+                  <br>
+                  <b>CGPA: </b>8/10
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Eighth Section: Career Goals -->
+     <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Career Goals</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="#" target="_blank" class="teal-text hoverline">Long Term Career Goals</a></span>
+                </p>
+
+                <p>
+                  Attain a senior leadership role in IT management, overseeing strategic network initiatives
+                </p>
+                <br>
+                <p>
+                  Establish a consultancy firm specializing in network security and infrastructure optimization
+                </p>
+                <br>
+                <p>
+                  Contribute to the industry through thought leadership, publications, and speaking engagements at conferences
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="#" target="_blank" class="teal-text hoverline">Short Term Career Goals</a></span>
+                </p>
+
+                <p>
+                  Enhance proficiency in network systems management through advanced training and certifications
+                </p>
+                <br>
+                <p>
+                  Lead a successful network infrastructure upgrade project to improve organizational efficiency
+                </p>
+                <br>
+                <p>
+                  Develop strong mentorship relationships with industry experts to gain valuable insights and guidance
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ninth Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Aman" data-position="top" data-tooltip="Call Aman"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Aman">450017827</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Aman" href="mailto:amanlohchab7287@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Aman" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Aman" href="mailto:amanlohchab7287@gmail.com"
+              class="hoverline">amanlohchab7287@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Aman on LinkedIn" href="https://www.linkedin.com/in/aman-lohchab-45695b18b/" target="_blank"
+            data-position="top" data-tooltip="View Aman on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Aman on LinkedIn" href="https://www.linkedin.com/in/aman-lohchab-45695b18b/"
+              class="hoverline" target="_blank">linkedin.com/in/aman-lohchab-45695b18b/</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Developer", "Tech Enthusiast", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
